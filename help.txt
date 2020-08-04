@@ -1,0 +1,17 @@
+Tasks done:
+1.Downloaded data using boto3 from S3 bucket
+2.Read each tile and extract gelocation from the tile meta data
+3.Appliced PCA and formed 7 principal components which explained 90% of the variance
+4.Standarized results and fed it into a KMeans classifier.
+5.Got 4 clusters from the elbow method.
+6.Found the predictions on the whole tile.
+7.Got four distinguishable classes:water,vegetation,urban,open surfaces
+8.Did all processing in Google Colab since a large RAM power was required
+9.Since I had all the coordinates,thrwe my results giving colur to each class to an HTML mapbox sheet.
+10.Getting results 90% accurate for Mumbai.
+The classes are segregated as:
+Water-Blue
+Open_surfaces-Red
+Vegetation-Green
+Urban-White
+
